@@ -1,6 +1,6 @@
 <div align=center>
 
-# Hunt & Hackett
+### Hunt & Hackett
 
 # Researching access tokens for fun and knowledge
 </div>
