@@ -162,7 +162,7 @@ This is great stuff, but we don't quite know based on what information we were a
 
 ### Manually request token with certificate
 
-Requesting tokens manually requires us to know how to construct a JWT token. There are various posts[1] online that details on how that works, so we focus on the practical implementation only.
+Requesting tokens manually requires us to know how to construct a JWT token. There are various posts[^1] online that details on how that works, so we focus on the practical implementation only.
 
 ```powershell
 
@@ -519,8 +519,8 @@ As said in the intro of this blogpost; this blogpost does not really provide a s
 
 However, if you are in need of a solution that is not covered by the default libraries and special corner cases are your bread and butter, then maybe this will help in finding a solution that works for you.
 
-## References
+<h3><ins>References</ins></h3>
 
-1.  [https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-certificate-credentials](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-certificate-credentials)
+[^1]: [https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-certificate-credentials](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-certificate-credentials)
 
-[Tactics, Techniques & Procedures](https://www.huntandhackett.com/blog/tag/tactics-techniques-procedures)
+
