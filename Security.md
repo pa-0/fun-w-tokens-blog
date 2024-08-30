@@ -22,7 +22,8 @@ Jul 14, 2022 11:06:22 AM
 
  ## The Why
 
-Beginning of March 2022, Orca Security published a blogpost detailing the `Autowarp` vulnerability that they discovered. To find out what this vulnerability entails, read their blogpost: [https://orca.security/resources/blog/autowarp-microsoft-azure-automation-service-vulnerability/](https://orca.security/resources/blog/autowarp-microsoft-azure-automation-service-vulnerability/)
+Beginning of March 2022, Orca Security published a blogpost detailing the `Autowarp` vulnerability that they discovered. To find out what this vulnerability entails, read their blogpost
+[https://orca.security/resources/blog/autowarp-microsoft-azure-automation-service-vulnerability/](https://orca.security/resources/blog/autowarp-microsoft-azure-automation-service-vulnerability/)
 
 In short; this vulnerability allowed users to retrieve JSON Web Tokens (JWT) belonging to identities in other tenants. These tokens are part of the authentication process in Azure and other people having access to identities in your own tenant is a great way to have your own tenant completely compromised. The vulnerability emerged when using Azure Automation and having the managed identity feature enabled. That got me thinking; what if I wanted to use JWT’s without the managed identity feature? How does that even work? This curiosity sucked me into the ever amazing world of tokens, signing and Azure. This blogpost requires prior knowledge about applications, permissions, Graph API etc., since we will deep dive into a fair amount of technical challenges.
 
